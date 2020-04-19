@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Multilingual.watchOS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Multilingual.Net45", "Plugin.Multilingual.Net45\Plugin.Multilingual.Net45.csproj", "{0DBCF574-8A15-4CC5-A637-649B65E43C7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E457D351-01D9-4B64-A2AC-2741C1C4E8A5}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yaml = azure-pipelines.yaml
+		..\nuget\Plugin.nuspec = ..\nuget\Plugin.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Plugin.Multilingual.Shared\Plugin.Multilingual.Shared.projitems*{0dbcf574-8a15-4cc5-a637-649b65e43c7e}*SharedItemsImports = 4
