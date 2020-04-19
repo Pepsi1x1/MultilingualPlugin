@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Plugin.Multilingual</AssemblyName>
     <RootNamespace>Plugin.Multilingual</RootNamespace>
   </PropertyGroup>
@@ -11,8 +11,6 @@
     <DebugType>none</DebugType>
     <DebugSymbols>False</DebugSymbols>
   </PropertyGroup>
-
-  <Import Project="..\Plugin.Multilingual.Shared\Plugin.Multilingual.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Multilingual.Abstractions\Plugin.Multilingual.Abstractions.csproj" />

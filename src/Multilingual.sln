@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Multilingual.watchOS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Multilingual.Net45", "Plugin.Multilingual.Net45\Plugin.Multilingual.Net45.csproj", "{0DBCF574-8A15-4CC5-A637-649B65E43C7E}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plugin.Multilingual.Shared", "Plugin.Multilingual.Shared\Plugin.Multilingual.Shared.shproj", "{4E24E3FA-E4D2-4F18-8473-AA102416D141}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Plugin.Multilingual.Shared\Plugin.Multilingual.Shared.projitems*{0dbcf574-8a15-4cc5-a637-649b65e43c7e}*SharedItemsImports = 4
